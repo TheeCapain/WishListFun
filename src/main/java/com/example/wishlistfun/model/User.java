@@ -1,4 +1,4 @@
-package com.example.wishlistfun;
+package com.example.wishlistfun.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
