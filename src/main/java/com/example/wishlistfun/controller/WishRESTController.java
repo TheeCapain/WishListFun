@@ -1,6 +1,7 @@
 package com.example.wishlistfun.controller;
 
 import com.example.wishlistfun.model.Wishlist;
+import com.example.wishlistfun.repository.WishRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
