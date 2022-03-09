@@ -13,6 +13,7 @@ h1 {
     text-align: center;
     padding: 40px;
     font-size: 80px;
+    color: #29272b;
 }
 
 #loginBox {
@@ -28,33 +29,28 @@ h1 {
     text-align: center;
     padding: 10px;
     background-color: #b57de3;
-    color: aliceblue;
-}
-
-#loginBox form {
-    display: inline-block;
+    color: #f6f5f7;
 }
 
 #loginBox input{
     text-align: center;
     margin: 10px;
     padding: 5px;
-    float: left;
     border: 2px solid #c9a0eb;
     border-radius: 5px;
 }
 
 #loginBox .button {
     margin: 5px;
-    padding: 2px;
+    padding: 4px;
     background-color: #c9a0eb;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     border: none;
+    color: #f6f5f7;
 }
 
 #loginBox .button:hover {
     cursor: pointer;
     background-color: #e8d5f7;
 }
-
