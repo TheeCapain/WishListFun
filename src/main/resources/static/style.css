@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 80px;
+}
+
+#loginBox {
+    border: 2px solid #549eff;
+    border-radius: 5px;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+#loginBox h2 {
+    text-align: center;
+    padding: 10px;
+    background-color: #549eff;
+    color: aliceblue;
+}
+
+#loginBox form {
+    display: inline-block;
+}
+
+#loginBox input{
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+
