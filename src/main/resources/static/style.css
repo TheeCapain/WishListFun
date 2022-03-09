@@ -16,7 +16,7 @@ h1 {
 }
 
 #loginBox {
-    border: 2px solid #549eff;
+    border: 2px solid #925ebd;
     border-radius: 5px;
     justify-content: center;
     width: 50%;
@@ -27,7 +27,7 @@ h1 {
 #loginBox h2 {
     text-align: center;
     padding: 10px;
-    background-color: #549eff;
+    background-color: #b57de3;
     color: aliceblue;
 }
 
@@ -37,7 +37,24 @@ h1 {
 
 #loginBox input{
     text-align: center;
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
     float: left;
+    border: 2px solid #c9a0eb;
+    border-radius: 5px;
+}
+
+#loginBox .button {
+    margin: 5px;
+    padding: 2px;
+    background-color: #c9a0eb;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border: none;
+}
+
+#loginBox .button:hover {
+    cursor: pointer;
+    background-color: #e8d5f7;
 }
 
